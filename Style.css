@@ -1,0 +1,29 @@
+body{
+background-image: url("dev.jpeg");
+background-repeat: no repeat;
+background-size: cover;}
+form{
+/*background-color; #000000;
+opacity:60%;*/
+background:rgba(160,50,0225,0.5);
+color: gold;
+margin: 60px;
+padding:40px;
+}
+input{
+text-align:center;
+border:none;
+border-bottom:2px solid white;
+background: transparent;
+}
+
+::placeholder{
+color:aqua;
+}
+button{
+background:blue
+width:70px;
+height:50px;
+font-size:20px;
+}
+
