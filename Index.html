@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en">
+     <head>
+
+ <title>form and bottom</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form> 
+<label for="fstnm">First Name:</label>
+<input type="text" id="fstnm" name="First Name" placeholder="First Name" required> <br> <br>
+ 
+<label for="lstnm">Last Name:</label>
+<input type="text" id="lstnam" name="Last Name" placeholder="Last Name"> <br> <br>
+
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="Email Address" placeholder="Your email address" required> <br> <br>
+
+<label for="pswd">Password:</label>
+<input type="password" id="pswd" name="Password" placeholder="min.of 8xters, uppercase, lowercase, a digit" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}" title="min. 8xters, atleast an uppercase, a lowercase, and digit"required> <br> <br>
+
+<label for="gender">Gender:</label>
+<label for="male">Male:</label>
+<input type="radio" id="male" name="gender"> 
+<label for="female">Female:</label>
+<input type="radio" id="female" name="gender"> <br> <br>
+
+<label for="dob">Date of birth:</label>
+<input type="date" id="dob" name="Date of data"> <br> <br>
+
+<label for="age">Age:</label>
+<input type="number" id="age" name="age"> <br> <br>
+ 
+<label for="states">state of origin:</label>
+<select id="states" name="states">
+<option value="select" selected>select</option>
+<option value="abia">Abia</option>
+
+<option value="adamawa">Adamawa</option>
+
+<option value="akwa ibom">Akwa Ibom</option>
+
+<option value="anambra">Anambra</option>
+
+<option value="bauch">Bauchi</option>
+
+<option value="bayelsa">Bayelsa</option>
+</select> <br> <br>
+<label for="uoc">Universities of choice:</label> <br> 
+<input type="checkbox" id="ui"> 
+
+<label for="ui">University of ibadan</label> <br> <br>
+<input type="checkbox" id="unilag"> 
+
+<label for="unilag">University of lagos</label> <br> <br>
+<input type="checkbox" id="oau">
+
+<label for="oau">Obafemi Awolowo University</label> <br> <br>
+<input type="checkbox" id="eksu">
+
+<label for="eksu"> Ekiti state university</label> <br> <br>
+
+
+<button type="submit">Register</button>
+
+</form>
+</body>
+</html>
+
+
